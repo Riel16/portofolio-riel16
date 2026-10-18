@@ -1,48 +1,49 @@
-# Riel16 — Personal Portfolio
+# Riel16 — Portofolio Pribadi
 
 [![GitHub](https://img.shields.io/badge/GitHub-Riel16-181717?logo=github)](https://github.com/Riel16)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Lisensi: MIT](https://img.shields.io/badge/Lisensi-MIT-green.svg)](LICENSE)
 
-A personal portfolio website showcasing my web development projects, UI/UX design work, and technical skills. Built as a single, self-contained HTML page with a responsive, dark-mode-aware layout.
+Situs portofolio pribadi yang menampilkan proyek pengembangan web, karya desain UI/UX, dan keterampilan teknis saya. Dibangun sebagai satu halaman HTML mandiri dengan tata letak responsif yang mendukung mode gelap.
 
-## ✨ Features
+## ✨ Fitur
 
-- **Responsive layout** — adapts gracefully from mobile to desktop (`auto-fit` grids, fluid typography).
-- **Dark mode support** — follows `prefers-color-scheme` and supports an explicit `data-theme` override.
-- **Project showcase** — cards for full-stack web apps with tech stacks and live links.
-- **Design gallery** — UI/UX prototypes (Figma), graphic design, and game-style interfaces.
-- **Skills section** — quick overview of technologies and tools.
-- **Zero dependencies** — plain HTML & CSS, no build step required.
+- **Tata letak responsif** — menyesuaikan dari mobile hingga desktop (grid `auto-fit`, tipografi fluid).
+- **Dukungan mode gelap** — mengikuti `prefers-color-scheme` dan mendukung override eksplisit melalui `data-theme`.
+- **Showcase proyek** — kartu untuk aplikasi web full-stack beserta tumpukan teknologi dan tautan.
+- **Galeri desain** — prototipe UI/UX (Figma), desain grafis, dan antarmuka bergaya permainan.
+- **Bagian keterampilan** — ringkasan teknologi dan perangkat yang dikuasai.
+- **Tanpa dependensi** — HTML & CSS murni, tanpa proses build.
 
-## 🛠 Tech Stack
+## 🛠 Tumpukan Teknologi
 
-| Layer | Technology |
+| Lapisan | Teknologi |
 | --- | --- |
 | Markup | HTML5 |
 | Styling | CSS3 (custom properties, `clamp()`, CSS Grid) |
-| Fonts | System font stack |
-| Hosting | Static (GitHub Pages / any static host) |
+| Font | Tumpukan font sistem |
+| Hosting | Statis (GitHub Pages / host statis lainnya) |
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```text
 web-portofolio/
-├── website-portofolio.html   # Main portfolio page
-└── README.md                 # Project documentation
+├── website-portofolio.html   # Halaman utama portofolio
+├── README.md                 # Dokumentasi proyek
+└── LICENSE                   # Lisensi MIT
 ```
 
-## 🚀 Getting Started
+## 🚀 Memulai
 
-No build tools or dependencies are required. Simply open the HTML file in a browser:
+Tidak memerlukan alat build atau dependensi. Cukup buka berkas HTML di peramban:
 
 ```bash
-# Clone the repository
+# Klon repositori
 git clone https://github.com/Riel16/portofolio-riel16.git
 cd portofolio-riel16
 
-# Open in your default browser
+# Buka di peramban bawaan
 start website-portofolio.html        # Windows
 # open website-portofolio.html      # macOS
 # xdg-open website-portofolio.html  # Linux
@@ -50,46 +51,46 @@ start website-portofolio.html        # Windows
 
 ## 🌐 Deployment
 
-This is a static site and can be deployed anywhere:
+Ini adalah situs statis dan dapat dideploy ke mana saja:
 
-- **GitHub Pages** — enable Pages on the `main` branch, root folder.
-- **Netlify / Vercel** — drag-and-drop or connect the repository.
-- **Any static host** — upload `website-portofolio.html`.
+- **GitHub Pages** — aktifkan Pages pada branch `main`, folder root.
+- **Netlify / Vercel** — seret-dan-lepas atau hubungkan repositori.
+- **Host statis lainnya** — unggah `website-portofolio.html`.
 
-## 📌 Featured Projects
+## 📌 Proyek Unggulan
 
 ### Explore Enggano Island
-Tourism portal for Enggano Island, Bengkulu — island profile, destinations, and online tour package booking with automatic billing (facilities × duration × people). Available in both a legacy (PHP) and a modern (Next.js) version.
+Portal pariwisata Pulau Enggano, Bengkulu — profil pulau, destinasi wisata, dan pemesanan paket wisata online dengan tagihan otomatis (fasilitas × durasi × jumlah orang). Tersedia dalam versi legacy (PHP) dan modern (Next.js).
 
-- Stack: Next.js, TypeScript, Tailwind CSS, shadcn/ui, MySQL, PHP
-- Repo: [explorer-enggano-island-website](https://github.com/Riel16/explorer-enggano-island-website)
+- Tumpukan teknologi: Next.js, TypeScript, Tailwind CSS, shadcn/ui, MySQL, PHP
+- Repositori: [explorer-enggano-island-website](https://github.com/Riel16/explorer-enggano-island-website)
 
 ### Class Carrier
-Career development platform connecting participants with mentors via counseling, CV review, and live chat.
+Platform pengembangan karier yang menghubungkan peserta dengan mentor lewat konseling, review CV, dan chat langsung.
 
-- Stack: PHP, MySQL, JavaScript, HTML/CSS
-- Repo: [class-career](https://github.com/Riel16/class-career)
+- Tumpukan teknologi: PHP, MySQL, JavaScript, HTML/CSS
+- Repositori: [class-career](https://github.com/Riel16/class-career)
 
-## 🎨 Design Portfolio
+## 🎨 Portofolio Desain
 
-- **Hafalan Surah** — child-friendly educational game UI for memorizing short Qur'anic surahs.
-- **Class Carrier** — Figma prototype for the career platform above.
-- **Dapur Tetangga** — collaborative UI/UX design (team project).
-- **Sport Palembang** — clickable UI prototype for a sports service in Palembang.
-- **Kalender 2023** — print-ready graphic design calendar.
+- **Hafalan Surah** — desain antarmuka permainan edukasi untuk anak dalam menghafal surah-surah pendek Al-Qur'an.
+- **Class Carrier** — prototipe Figma untuk platform karier di atas.
+- **Dapur Tetangga** — desain UI/UX kolaboratif (proyek kelompok).
+- **Sport Palembang** — prototipe UI yang bisa diklik untuk layanan olahraga di Palembang.
+- **Kalender 2023** — desain kalender grafis siap cetak.
 
-## 🧰 Skills
+## 🧰 Keterampilan
 
-HTML5 · CSS3 · PHP · Tailwind CSS · MySQL / MariaDB · Authentication & Sessions · XAMPP · Figma · UI/UX Design · Graphic Design
+HTML5 · CSS3 · PHP · Tailwind CSS · MySQL / MariaDB · Autentikasi & Session · XAMPP · Figma · Desain UI/UX · Desain Grafis
 
-## 📄 License
+## 📄 Lisensi
 
-This project is licensed under the [MIT License](LICENSE).
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
 
-## 📬 Contact
+## 📬 Kontak
 
 - GitHub: [@Riel16](https://github.com/Riel16)
 
 ---
 
-© 2026 Riel16. Built with HTML & CSS.
+© 2026 Riel16. Dibuat dengan HTML & CSS.
