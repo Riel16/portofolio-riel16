@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Riel16 — Web Developer</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f7f8fa;--surface:#fff;--text:#14181f;--muted:#5b6574;--line:#e3e7ee;--accent:#0f766e;--accent-soft:#d9f2ee}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1217;--surface:#161c24;--text:#e9edf3;--muted:#98a3b3;--line:#252d38;--accent:#4fd1c0;--accent-soft:#12302d}}
+:root[data-theme="dark"]{--bg:#0e1217;--surface:#161c24;--text:#e9edf3;--muted:#98a3b3;--line:#252d38;--accent:#4fd1c0;--accent-soft:#12302d}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav .logo{font-weight:700;text-decoration:none;letter-spacing:.2px}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;font-size:14px}
+nav ul a{text-decoration:none;color:var(--muted)}
+nav ul a:hover{color:var(--accent)}
+.hero{padding:88px 0 64px}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:99px;font-size:13px;font-weight:600}
+h1{font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.1;margin:18px 0 16px;letter-spacing:-.02em}
+.hero p{max-width:560px;color:var(--muted);font-size:1.08rem;margin:0 0 28px}
+.btn{display:inline-block;padding:11px 22px;border-radius:10px;font-weight:600;text-decoration:none;border:1px solid var(--accent);margin-right:10px}
+.btn.primary{background:var(--accent);color:var(--bg)}
+.btn:hover{opacity:.85}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:1.6rem;margin:0 0 24px;letter-spacing:-.01em}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}
+.card h3{margin:0 0 8px;font-size:1.2rem}
+.card p{color:var(--muted);margin:0 0 14px}
+.card ul{margin:0 0 16px;padding-left:18px;color:var(--muted);font-size:.95rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{font-size:12.5px;padding:3px 10px;border-radius:99px;border:1px solid var(--line);color:var(--muted);background:var(--bg)}
+.card a.link{color:var(--accent);font-weight:600;text-decoration:none}
+.skills{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.skills h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 10px}
+.about{max-width:680px;color:var(--muted)}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+.sub{color:var(--muted);margin:-12px 0 24px;max-width:640px}
+.kind{font-size:12px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.badge{font-size:12.5px;font-weight:600;padding:4px 12px;border-radius:99px;color:#fff}
+.card.wide{grid-column:1/-1}
+@media(max-width:560px){nav ul{gap:12px}.hero{padding:56px 0 40px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#top">Riel16</a>
+<ul><li><a href="#tentang">Tentang</a></li><li><a href="#proyek">Proyek</a></li><li><a href="#desain">Desain</a></li><li><a href="#skill">Skill</a></li><li><a href="#kontak">Kontak</a></li></ul>
+</nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+<span class="tag">Web Developer</span>
+<h1>Halo, saya Riel.<br>Saya membangun website yang berguna.</h1>
+<p>Dari portal pariwisata hingga platform karier. Saya mengerjakan aplikasi web full-stack dengan PHP, MySQL, dan Next.js.</p>
+<a class="btn primary" href="#proyek">Lihat Proyek</a><a class="btn" href="https://github.com/Riel16" target="_blank" rel="noopener">GitHub</a>
+</div>
+
+<section id="tentang"><div class="wrap">
+<h2>Tentang</h2>
+<p class="about">Saya mengembangkan aplikasi web yang lengkap, mulai dari antarmuka responsif, autentikasi, sampai database. Proyek saya mencakup sistem pemesanan dengan perhitungan biaya otomatis dan platform chat mentor–peserta. Saya juga terbiasa memodernisasi proyek lama ke stack yang lebih baru.</p>
+</div></section>
+
+<section id="proyek"><div class="wrap">
+<h2>Proyek</h2>
+<div class="grid">
+<article class="card">
+<h3>Explore Enggano Island</h3>
+<p>Portal pariwisata Pulau Enggano, Bengkulu, dengan profil pulau, destinasi wisata, dan pemesanan paket wisata online.</p>
+<ul>
+<li>Daftar destinasi: Batu Lobang, Bak Blau, Pulau Dua, Podipi</li>
+<li>Form pemesanan dengan total tagihan otomatis (fasilitas × durasi × jumlah orang)</li>
+<li>Login berbasis sesi dan rekap data pemesanan</li>
+<li>Tersedia versi legacy (PHP) dan versi modern (Next.js)</li>
+</ul>
+<div class="chips"><span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">Tailwind CSS</span><span class="chip">shadcn/ui</span><span class="chip">MySQL</span><span class="chip">PHP</span></div>
+<a class="link" href="https://github.com/Riel16/explorer-enggano-island-website" target="_blank" rel="noopener">Lihat di GitHub →</a>
+</article>
+
+<article class="card">
+<h3>Class Carrier</h3>
+<p>Platform pengembangan karier yang menghubungkan peserta dengan mentor lewat konseling, review CV, dan chat langsung.</p>
+<ul>
+<li>Landing page dengan daftar mentor, sesi konseling, dan FAQ</li>
+<li>Registrasi, login, dan reset password untuk peserta dan mentor</li>
+<li>Dashboard peserta dan mentor dengan chat berbasis polling</li>
+<li>Unggah CV (PDF, maks 10 MB) yang tampil sebagai tautan di chat</li>
+</ul>
+<div class="chips"><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span></div>
+<a class="link" href="https://github.com/Riel16/class-career" target="_blank" rel="noopener">Lihat di GitHub →</a>
+</article>
+</div>
+</div></section>
+
+<section id="desain"><div class="wrap">
+<h2>Portofolio Desain</h2>
+<p class="sub">Selain coding, saya juga mendesain UI/UX dan materi visual. Berikut beberapa karya saya.</p>
+<div class="grid">
+
+<article class="card wide">
+<div class="kind">UI/UX · Aplikasi edukasi anak</div>
+<h3>Hafalan Surah</h3>
+<p>Desain antarmuka aplikasi belajar dan bermain untuk membantu anak menghafal surah-surah pendek Al-Qur’an. Gayanya ceria dan ramah anak: tombol bulat besar, ilustrasi per surah, dan latar ruang kelas berwarna hijau lembut dengan bintang-bintang.</p>
+<div class="badges">
+<span class="badge" style="background:#4a2c7a">An-Nas · 6 ayat</span>
+<span class="badge" style="background:#5a9bb8">Al-Kautsar · 3 ayat</span>
+<span class="badge" style="background:#b8860b">Al-Ikhlas · 4 ayat</span>
+<span class="badge" style="background:#2f6b3a">Al-Falaq · 5 ayat</span>
+<span class="badge" style="background:#b83a2a">Al-Lahab · 5 ayat</span>
+<span class="badge" style="background:#7a7266">Al-Fil · 5 ayat</span>
+<span class="badge" style="background:#2f6f6b">Al-Ma’un · 7 ayat</span>
+<span class="badge" style="background:#c58a1f">Al-Quraysh · 4 ayat</span>
+</div>
+<ul>
+<li>Menu utama dengan pilihan <b>Belajar</b> dan <b>Bermain</b>, serta halaman daftar surah dengan ikon khas tiap surah (gajah untuk Al-Fil, unta untuk Al-Quraysh, api untuk Al-Lahab, dan seterusnya)</li>
+<li><b>Menyusun Surah</b>: anak menyusun potongan ayat seperti puzzle sambil menghafal</li>
+<li><b>Kisah Surah</b>: mendengarkan cerita di balik surah, lengkap dengan tombol “Dengar Cerita” dan kolom “Tebak Surah”</li>
+<li>Materi terjemahan Indonesia dan teks Arab per ayat</li>
+<li>Set ikon kontrol (putar, jeda, ulang, suara, beranda, pengaturan), panel pengaturan volume musik dan efek, serta layar “Selamat” sebagai penghargaan setelah bermain</li>
+</ul>
+<div class="chips"><span class="chip">UI Design</span><span class="chip">Ilustrasi &amp; Ikon</span><span class="chip">Game UI</span><span class="chip">Desain untuk anak</span></div>
+</article>
+
+<article class="card">
+<div class="kind">UI/UX · Prototipe Figma</div>
+<h3>Class Carrier</h3>
+<p>Desain antarmuka platform pengembangan karier yang menghubungkan peserta dengan mentor. Ini adalah rancangan visual untuk proyek Class Carrier yang kemudian saya bangun dengan PHP dan MySQL (lihat bagian Proyek).</p>
+<div class="chips"><span class="chip">Figma</span><span class="chip">Prototype</span><span class="chip">Tugas Project Akhir</span></div>
+<a class="link" href="https://www.figma.com/proto/HjQjFM0PtjUgBNqDvRvm0T/Tugas-Project-Akhir?node-id=95-202&amp;starting-point-node-id=95%3A202" target="_blank" rel="noopener">Buka prototipe →</a>
+</article>
+
+<article class="card">
+<div class="kind">UI/UX · Karya kelompok</div>
+<h3>Dapur Tetangga</h3>
+<p>Desain UI/UX yang dikerjakan secara berkelompok pada modul Prestige Pro 2 divisi Web Dev UI/UX. Karya ini melatih kerja tim, mulai dari menyusun struktur halaman sampai merapikan desain di Figma.</p>
+<div class="chips"><span class="chip">Figma</span><span class="chip">Kerja tim</span><span class="chip">Web UI/UX</span></div>
+<a class="link" href="https://www.figma.com/design/nIdvh8MEGgLhHshdrz97oP/Tugas-Modul_Kelompok-Prestige-Pro-2_Div-Web-Dev-UI_UX?t=8EsiRQh3rF54T3kh-0" target="_blank" rel="noopener">Buka desain →</a>
+</article>
+
+<article class="card">
+<div class="kind">UI/UX · Prototipe Figma</div>
+<h3>Sport Palembang</h3>
+<p>Rancangan antarmuka untuk layanan olahraga di Kota Palembang, dibuat sebagai tugas UI dengan prototipe yang bisa diklik untuk mencoba alur penggunaannya.</p>
+<div class="chips"><span class="chip">Figma</span><span class="chip">Prototype</span><span class="chip">Tugas UI</span></div>
+<a class="link" href="https://www.figma.com/proto/LvCz30Y3zYYNWQSgRC18at/Tugas-UI?node-id=7-347" target="_blank" rel="noopener">Buka prototipe →</a>
+</article>
+
+<article class="card">
+<div class="kind">Desain grafis · Cetak</div>
+<h3>Kalender 2023</h3>
+<p>Desain kalender tahun 2023 dalam format file yang siap dilihat dan dicetak, menunjukkan kemampuan saya di desain grafis, tata letak, dan pemilihan warna.</p>
+<div class="chips"><span class="chip">Desain grafis</span><span class="chip">Layout</span><span class="chip">Cetak</span></div>
+<a class="link" href="https://drive.google.com/file/d/1qj8ejX86twvMWNc0eDiu3apXud6fxbHr/view?usp=sharing" target="_blank" rel="noopener">Lihat file →</a>
+</article>
+
+</div>
+</div></section>
+
+<section id="skill"><div class="wrap">
+<h2>Skill</h2>
+<div class="chips" style="gap:10px"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">PHP</span><span class="chip">Tailwind CSS</span><span class="chip">MySQL / MariaDB</span><span class="chip">Autentikasi &amp; Session</span><span class="chip">XAMPP</span><span class="chip">Figma</span><span class="chip">UI/UX Design</span><span class="chip">Desain Grafis</span></div>
+</div></section>
+
+<section id="kontak"><div class="wrap">
+<h2>Kontak</h2>
+<p class="about">Tertarik berkolaborasi atau ingin melihat kode saya? Kunjungi profil GitHub saya.</p>
+<a class="btn primary" href="https://github.com/Riel16" target="_blank" rel="noopener">github.com/Riel16</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Riel16. Dibuat dengan HTML &amp; CSS.</div></footer>
+</body>
+</html>
